@@ -23,6 +23,13 @@ La solucion esta dividida en tres aplicaciones independientes:
 - Historial persistente con conteo de visitas
 - Estados de `loading`, `error` y `empty`
 
+## Credenciales de acceso
+
+Para probar el login fake usa:
+
+- usuario: `admin`
+- password: `admin123`
+
 ## Arquitectura
 
 ### Shell
