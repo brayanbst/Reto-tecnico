@@ -1,0 +1,37 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: var(--text-primary, #182235);
+  background: var(--background, #f6f7fb);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text-primary, #182235);
+  background:
+    radial-gradient(circle at top, rgba(255, 204, 86, 0.22), transparent 30%),
+    linear-gradient(
+      180deg,
+      var(--background, #f6f7fb) 0%,
+      var(--background-accent, #e9eef8) 100%
+    );
+}
+
+button,
+input {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
