@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "postinstall": "npm run install:all",
+    "install:all": "npm install --prefix shell && npm install --prefix pokemon-detail && npm install --prefix pokemon-history",
     "dev": "npm run dev:local",
     "dev:local": "node scripts/dev.mjs",
     "build:all": "npm run build --prefix shell && npm run build --prefix pokemon-detail && npm run build --prefix pokemon-history"

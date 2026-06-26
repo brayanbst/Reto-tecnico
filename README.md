@@ -100,7 +100,25 @@ Se utilizan las siguientes llaves:
 
 ## Instalacion
 
-Cada app tiene su propio `package.json`. Instala dependencias por separado:
+Desde la raiz del proyecto ya puedes instalar todo automaticamente con un solo comando:
+
+```bash
+npm install
+```
+
+Ese comando ejecuta tambien la instalacion de:
+
+- `shell`
+- `pokemon-detail`
+- `pokemon-history`
+
+Si por alguna razon quieres correr la instalacion automatica de nuevo desde la raiz, puedes usar:
+
+```bash
+npm run install:all
+```
+
+Cada app sigue teniendo su propio `package.json`. Si quieres instalar dependencias por separado, tambien puedes hacerlo asi:
 
 ```bash
 cd shell && npm install
